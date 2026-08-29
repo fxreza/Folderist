@@ -1,0 +1,41 @@
+Hero Patterns
+https://heropatterns.com
+Created by Steve Schoger (https://twitter.com/steveschoger)
+Source repository: https://github.com/sschoger/hero-patterns
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+
+  Share — copy and redistribute the material in any medium or format
+  Adapt — remix, transform, and build upon the material for any purpose,
+  even commercially.
+
+  The licensor cannot revoke these freedoms as long as you follow the
+  license terms.
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the
+  license, and indicate if changes were made. You may do so in any
+  reasonable manner, but not in any way that suggests the licensor
+  endorses you or your use.
+
+  No additional restrictions — You may not apply legal terms or
+  technological measures that legally restrict others from doing
+  anything the license permits.
+
+No warranties are given. The license may not give you all of the
+permissions necessary for your intended use.
+
+---
+
+This LICENSE.txt is a courtesy copy assembled from the CC BY 4.0 summary
+and the license declaration published in the footer of heropatterns.com
+and its source repository's index.html (both link to
+https://creativecommons.org/licenses/by/4.0/). The source repository does
+not ship a standalone LICENSE file; the canonical license terms are at
+the Creative Commons URL above.
