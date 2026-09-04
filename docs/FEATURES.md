@@ -44,15 +44,10 @@ Popover/sheet over the grid with a big live folder preview. Tabs: **Icons | Effe
 - Optionally set the matching macOS **color tag** when applying a color; folder labels as additional tags.
 - Right-click Finder context menu (Services / Finder extension) — stretch goal for v1.
 
-## 5. Folderist Bar (menu-bar companion)
-
-- Status-bar icon + compact floating palette window showing the current Asset's styles as small tiles.
-- Drag folders onto a mini-tile (or the status item) to apply without opening the main window.
-
-## 6. App-level
+## 5. App-level
 
 - Dark, compact utility UI matching FolderMarker's layout: toolbar (export, share, iCloud, tags, hue slider, apply ▶, emoji, symbols, T, image, +/−), style grid, floating Assets / Color / Symbols panels.
-- Menus: File, Bar, Edit, Format, Settings, Tags, Labels, Window, Help.
+- Menus: File, Edit, Format, Settings, Tags, Labels, Window, Help.
 - Autosave. Retina-ready rendering at all icon sizes (16→1024 px).
 - **[extra]** Onboarding/in-app help (FolderMarker's #1 complaint is zero documentation).
 - Localization-ready (English first).

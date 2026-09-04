@@ -1,11 +1,9 @@
 #!/usr/bin/env bash
 # Launch the assembled Folderist.app bundle.
 #
-# IMPORTANT (see /Users/sam/Claude/CLAUDE.md — menu-bar status item trap):
-#   - NEVER execute the raw binary directly. Always launch via `open` on a
-#     proper LS-registered .app bundle, or a foreign launcher (Terminal,
-#     Claude Code, etc.) can end up "owning" this app's status item and a
-#     hidden menu-bar icon for that launcher silently blocks ours too.
+# IMPORTANT:
+#   - Launch via `open` on a proper LS-registered .app bundle rather than
+#     executing the raw binary, so LaunchServices sees a real app.
 #   - NEVER run two live copies of the same bundle id (com.folderist.app) at
 #     once. Quit any existing instance first.
 set -euo pipefail

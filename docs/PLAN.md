@@ -45,7 +45,6 @@ Phase 3 — Main UI (Opus): style grid, tiles, toolbar with hue slider, drag-and
 Phase 4 — Editor (Opus): editor sheet with all tabs, color panel, transforms, effects.
 Phase 5 — Pickers & catalogs (Sonnet): symbol/emoji pickers with search, SVG rasterization pipeline.
 Phase 6 — Services (Sonnet): IconApplier, SmartRestore, tags, .icns/.iconset export.
-Phase 7 — Folderist Bar (Sonnet): status item + mini palette.
-Phase 8 — Polish (Sonnet): onboarding, app icon, help, QA pass.
+Phase 7 — Polish (Sonnet): onboarding, app icon, help, QA pass.
 
-Phases 1–2 parallel after 0; 3–4 after 1+2; 5–7 parallel; integration + polish last.
+Phases 1–2 parallel after 0; 3–4 after 1+2; 5–6 parallel; integration + polish last.

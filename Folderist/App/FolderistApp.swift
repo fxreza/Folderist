@@ -33,7 +33,6 @@ struct FolderistApp: App {
 /// is why that model is shared (see its doc comment).
 struct FolderistCommands: Commands {
     @ObservedObject private var model = MainWindowModel.shared
-    @AppStorage("showBar") private var showBar: Bool = true
     @AppStorage("appearance") private var appearance: AppearanceSetting = .auto
 
     var body: some Commands {
@@ -65,7 +64,6 @@ struct FolderistCommands: Commands {
             Picker("Appearance", selection: $appearance) {
                 ForEach(AppearanceSetting.allCases) { Text($0.title).tag($0) }
             }
-            Toggle("Show Folderist Bar", isOn: $showBar)
             Divider()
         }
 

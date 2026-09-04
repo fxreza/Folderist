@@ -75,11 +75,6 @@ private struct HelpContentView: View {
                     "Export ▸ Export This Icon… saves just the selected tile.",
                     "Drag a tile out to Finder to get the same .icns file — handy for Get Info."
                 ])
-
-                section("The Folderist Bar", [
-                    "The menu-bar icon opens a mini palette of the current asset. Drop folders on its tiles (or on the icon itself) without opening this window.",
-                    "Turn it off in View ▸ Show Folderist Bar."
-                ])
             }
             .padding(20)
             .frame(maxWidth: .infinity, alignment: .leading)

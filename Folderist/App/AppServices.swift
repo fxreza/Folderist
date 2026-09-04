@@ -1,16 +1,15 @@
 import AppKit
 
-/// Shared instances of the app's core services, so the main window UI and
-/// the Folderist Bar (status item + floating palette — see
-/// `Services/BarController.swift`) operate on the same data instead of each
-/// constructing their own `AssetStore`.
+/// Shared instances of the app's core services, so every part of the app
+/// operates on the same data instead of each constructing its own
+/// `AssetStore`.
 ///
 /// Integration notes for the main-UI agent:
 /// - `AppServices.shared.assetStore` is the one `AssetStore` for the whole
 ///   app. `FolderistApp.swift` already injects it as an `@EnvironmentObject`
 ///   for the main window (`.environmentObject(AppServices.shared.assetStore)`)
 ///   — read/write through that instance rather than constructing another one,
-///   or the Bar and the main grid will drift out of sync.
+///   or the views will drift out of sync.
 /// - `renderResources` is a single `BundleRenderResources` pointed at the
 ///   same on-disk images directory `assetStore` writes `GraphicOverlay.image`
 ///   files into. Reuse it (or build one the same way) whenever calling
